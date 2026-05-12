@@ -20,7 +20,7 @@ export function About() {
             transition={{ duration: 0.7 }}
           >
             <span className="inline-flex items-center gap-2 rounded-full glass px-3 py-1 text-xs uppercase tracking-widest text-muted-foreground">
-              <span className="h-1 w-1 rounded-full bg-accent" /> About Nexora
+              <span className="h-1 w-1 rounded-full bg-accent" /> About Techify
             </span>
             <h2 className="mt-5 text-4xl font-bold leading-tight md:text-5xl">
               A modern studio built to make <span className="text-gradient-aurora">local businesses</span> feel global.

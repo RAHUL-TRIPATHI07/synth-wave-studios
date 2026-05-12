@@ -6,7 +6,6 @@ import { Services } from "@/components/sections/Services";
 import { Industries } from "@/components/sections/Industries";
 import { Work } from "@/components/sections/Work";
 import { WhyUs } from "@/components/sections/WhyUs";
-import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/sections/Footer";
 
@@ -24,7 +23,6 @@ function Index() {
       <Industries />
       <Work />
       <WhyUs />
-      <Testimonials />
       <Contact />
       <Footer />
     </main>

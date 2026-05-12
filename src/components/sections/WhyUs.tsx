@@ -35,7 +35,7 @@ export function WhyUs() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full glass px-3 py-1 text-xs uppercase tracking-widest text-muted-foreground">
-            <span className="h-1 w-1 rounded-full bg-accent" /> Why choose Nexora
+            <span className="h-1 w-1 rounded-full bg-accent" /> Why choose Techify
           </span>
           <h2 className="mt-5 text-4xl font-bold leading-tight md:text-5xl">
             Numbers that <span className="text-gradient-aurora">earn trust</span>.
