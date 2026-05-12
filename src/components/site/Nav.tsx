@@ -37,7 +37,7 @@ export function Nav() {
               <Sparkles className="h-4 w-4 text-background" />
             </div>
           </div>
-          <span className="font-display text-lg font-bold tracking-tight">Nexora</span>
+          <span className="font-display text-lg font-bold tracking-tight">Techify</span>
         </a>
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (

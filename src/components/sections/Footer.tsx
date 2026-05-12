@@ -12,7 +12,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <div className="font-display text-lg font-bold">Nexora</div>
+            <div className="font-display text-lg font-bold">Techify</div>
             <div className="text-xs text-muted-foreground">Local-first digital studio</div>
           </div>
         </div>
@@ -38,7 +38,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-6xl px-6 text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Nexora Studio. Crafted with care for local brands.
+        © {new Date().getFullYear()} Techify Studio. Crafted with care for local brands.
       </div>
     </footer>
   );
