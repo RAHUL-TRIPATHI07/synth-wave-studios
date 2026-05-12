@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Techify — Local-First Digital Solutions for Modern Businesses" },
       { name: "description", content: "Techify helps cafés, clinics, salons, gyms and pharmacies go digital with premium websites, POS, booking and inventory systems — built locally, supported locally." },
       { name: "author", content: "Techify" },
-      { property: "og:title", content: "Techify — Transforming Local Businesses Into Digital Brands" },
-      { property: "og:description", content: "Premium websites, POS, booking and inventory systems for local businesses." },
+      { property: "og:title", content: "Techify — Local-First Digital Solutions for Modern Businesses" },
+      { property: "og:description", content: "Techify helps cafés, clinics, salons, gyms and pharmacies go digital with premium websites, POS, booking and inventory systems — built locally, supported locally." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Techify — Local-First Digital Solutions for Modern Businesses" },
+      { name: "twitter:description", content: "Techify helps cafés, clinics, salons, gyms and pharmacies go digital with premium websites, POS, booking and inventory systems — built locally, supported locally." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/571214fc-cf73-45b0-a62f-478ae7ed8bae" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/571214fc-cf73-45b0-a62f-478ae7ed8bae" },
     ],
     links: [
       {
