@@ -44,13 +44,13 @@ export function Contact() {
                   </div>
                   <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1" />
                 </a>
-                <a href="mailto:hello@nexora.studio" className="group flex items-center justify-between rounded-2xl glass px-5 py-4 transition-all hover:border-accent/40">
+                <a href="mailto:tripathidrahul@gmail.com" className="group flex items-center justify-between rounded-2xl glass px-5 py-4 transition-all hover:border-accent/40">
                   <div className="flex items-center gap-3">
                     <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-accent/30 to-primary/20 ring-1 ring-white/10">
                       <Mail className="h-5 w-5 text-accent" />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold">hello@nexora.studio</div>
+                      <div className="text-sm font-semibold">tripathidrahul@gmail.com</div>
                       <div className="text-xs text-muted-foreground">For proposals & briefs</div>
                     </div>
                   </div>
