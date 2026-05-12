@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { MessageCircle, Instagram, Mail, ArrowRight } from "lucide-react";
+import { MessageCircle, Mail, ArrowRight } from "lucide-react";
 
 export function Contact() {
   const [sent, setSent] = useState(false);
@@ -32,26 +32,14 @@ export function Contact() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3">
-                <a href="https://wa.me/" className="group flex items-center justify-between rounded-2xl glass px-5 py-4 transition-all hover:border-accent/40">
+                <a href="https://wa.me/919110172843" target="_blank" rel="noreferrer" className="group flex items-center justify-between rounded-2xl glass px-5 py-4 transition-all hover:border-accent/40">
                   <div className="flex items-center gap-3">
                     <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-accent/30 to-primary/20 ring-1 ring-white/10">
                       <MessageCircle className="h-5 w-5 text-accent" />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold">WhatsApp</div>
-                      <div className="text-xs text-muted-foreground">Fastest reply</div>
-                    </div>
-                  </div>
-                  <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1" />
-                </a>
-                <a href="https://instagram.com/" className="group flex items-center justify-between rounded-2xl glass px-5 py-4 transition-all hover:border-primary/40">
-                  <div className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/30 to-accent/20 ring-1 ring-white/10">
-                      <Instagram className="h-5 w-5 text-accent" />
-                    </div>
-                    <div>
-                      <div className="text-sm font-semibold">Instagram</div>
-                      <div className="text-xs text-muted-foreground">See latest work</div>
+                      <div className="text-sm font-semibold">+91 91101 72843</div>
+                      <div className="text-xs text-muted-foreground">WhatsApp — fastest reply</div>
                     </div>
                   </div>
                   <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1" />
